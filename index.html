@@ -5,7 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>阿部幸製菓株式会社 動画制作提案</title>
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
     <style>
+        /* 既存のスタイル */
         body {
             font-family: 'Noto Sans JP', sans-serif;
             line-height: 1.6;
@@ -15,103 +17,42 @@
             padding: 20px;
             background-color: #f8f9fa;
         }
-        h1, h2, h3, h4 {
-            color: #1a237e;
-            margin-top: 1.5em;
+        /* ... 他の既存のスタイル ... */
+
+        /* 新しく追加するスタイル */
+        .link-container {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+            margin: 20px 0;
         }
-        h1 {
-            border-bottom: 2px solid #3f51b5;
-            padding-bottom: 10px;
-            font-size: 2.8em;
-        }
-        h2 {
-            background-color: #3f51b5;
-            color: white;
+        .styled-link {
+            display: flex;
+            align-items: center;
             padding: 10px 15px;
+            background-color: #f0f0f0;
             border-radius: 5px;
-            font-size: 2em;
-        }
-        .highlight-box {
-            background-color: #e8eaf6;
-            border-left: 5px solid #3f51b5;
-            padding: 15px;
-            margin: 20px 0;
-            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-        }
-        table {
-            width: 100%;
-            border-collapse: collapse;
-            margin: 20px 0;
-            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-        }
-        th, td {
-            border: 1px solid #c5cae9;
-            padding: 12px;
-            text-align: left;
-        }
-        th {
-            background-color: #3f51b5;
-            color: white;
-        }
-        tr:nth-child(even) {
-            background-color: #e8eaf6;
-        }
-        img {
-            max-width: 100%;
-            height: auto;
-            display: block;
-            margin: 20px auto;
-            border-radius: 5px;
-            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-        }
-        .quote {
-            font-style: italic;
-            color: #5c6bc0;
-            border-left: 3px solid #3f51b5;
-            padding-left: 20px;
-            margin: 20px 0;
-        }
-        ul, ol {
-            padding-left: 20px;
-        }
-        a {
-            color: #3f51b5;
             text-decoration: none;
+            color: #333;
+            transition: background-color 0.3s ease;
         }
-        a:hover {
-            text-decoration: underline;
+        .styled-link:hover {
+            background-color: #e0e0e0;
         }
-        .large-text {
+        .styled-link i {
+            margin-right: 10px;
             font-size: 1.2em;
-            font-weight: bold;
-        }
-        .section-title {
-            font-size: 1.5em;
-            font-weight: bold;
-            color: #1a237e;
-            margin-top: 1.5em;
-        }
-        .section-title::before {
-            content: "■ ";
             color: #3f51b5;
-        }
-        .bold-text {
-            font-weight: bold;
-        }
-        .effect-highlight {
-            background-color: #e8eaf6;
-            padding: 15px;
-            border-radius: 5px;
-            margin: 10px 0;
-        }
-        .effect-highlight ul {
-            margin: 0;
-        }
-        .last-image {
-            margin-top: 50px;
         }
     </style>
 </head>
+<body>
+    <!-- ここからbodyの内容 -->
+    <!-- ... -->
+</body>
+</html>
+
+    
 <body>
     <h1>阿部幸製菓株式会社 動画制作提案</h1>
 
@@ -170,7 +111,7 @@
         <p class="bold-text">費用：300万円前後（内容により応相談）</p>
 
         <h3 class="large-text">提案2: 「賢者の選択サクセッション」出演＋ミュージアム用動画制作</h3>
-        <p class="bold-text">費用：500万円</p>
+        <p class="bold-text">費用：500万円（特別価格）</p>
         <p><strong>※推奨プラン</strong></p>
     </div>
 
@@ -228,7 +169,7 @@
         <tr>
             <td>テレビ番組放映（BS12/30分）</td>
             <td>想定視聴者数1万人</td>
-            <td>全国放送</td>
+            <td>全国放送/二時利用可能</td>
         </tr>
         <tr>
             <td>YouTubeアーカイブ</td>
@@ -252,7 +193,7 @@
         </tr>
         <tr>
             <td>企業紹介映像</td>
-            <td>納品</td>
+            <td>納品（制作費300万円相当）</td>
             <td></td>
         </tr>
     </table>
@@ -261,11 +202,26 @@
         <p><strong>費用対効果の試算：</strong></p>
         <ul>
             <li>記事広告の場合、PVあたり50-100円程度必要</li>
-            <li>広告費換算で150万～5,000万円の効果と推定</li>
+            <li>yahoo単体でも広告費換算で150万～5,000万円の効果と推定</li>
             <li>単純なTVクオリティで30分動画インタビューコンテンツ制作費とした場合、約400-500万円相当</li>
         </ul>
     </div>
 
+    <div class="link-container">
+        <a href="https://news.yahoo.co.jp/media/k_success" class="styled-link" target="_blank">
+            <i class="fas fa-newspaper"></i>
+            賢者の選択サクセッションの記事一覧 - Yahoo!ニュース
+        </a>
+        <a href="https://www.youtube.com/@kenja-succession/featured" class="styled-link" target="_blank">
+            <i class="fab fa-youtube"></i>
+            賢者の選択サクセッション YouTubeチャンネル
+        </a>
+        <a href="https://forbesjapan.com/author/detail/2772" class="styled-link" target="_blank">
+            <i class="fas fa-trophy"></i>
+            賢者の選択 サクセッション | Forbes JAPAN 公式サイト
+        </a>
+    </div>
+    
     <h2 id="cost">費用</h2>
     <table>
         <tr>
